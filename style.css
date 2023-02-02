@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Style of left side */
+#hero-set {
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    height: 100vh;
+}
+
+#hero-image {
+    height: inherit;
+}
+
+#logo {
+    height: inherit;
+}
+
+#logo-text {
+    font-size: 90px;
+    font-family: Norse;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+#credit {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#credit > a {
+    color: white;
+}
+
+#logo-set {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
