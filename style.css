@@ -90,9 +90,16 @@ body {
 }
 
 .input {
-    height: 25px;
+    height: 28px;
     width: 250px;
     margin-bottom: 25px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    background-color: rgb(255, 253, 253);
+}
+
+.input:focus {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 label {
@@ -108,7 +115,7 @@ label {
 #btn {
     width: 200px;
     height: 55px;
-    background-color: rgb(88, 109, 72);
+    background-color: #596D48;
     color: white;
     margin-left: var(--right-padding);
     margin-top: 40px;
@@ -125,5 +132,5 @@ label {
 }
 
 #login-text {
-    color: rgb(88, 109, 72)
+    color: #596D48;
 }
