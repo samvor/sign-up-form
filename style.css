@@ -99,6 +99,7 @@ body {
 }
 
 .input:focus {
+    outline: 1px solid blue;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
