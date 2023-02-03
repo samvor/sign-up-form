@@ -1,7 +1,11 @@
+
+
 body {
     margin: 0;
     padding: 0;
     display: flex;
+
+    --right-padding: 40px;
 }
 
 /* Style of left side */
@@ -49,4 +53,42 @@ body {
     height: 100px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+/* Style of right side */
+#form-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(248, 248, 248);
+    height: 100vh;
+}
+
+#form-inputs {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: var(--right-padding);
+}
+
+#inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input {
+    height: 25px;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }

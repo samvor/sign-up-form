@@ -35,20 +35,38 @@
         <form action="#">
             <section id="form-inputs">
                 <h2 id="form-header">Let's do this!</h2>
-                <label for="fname">FIRST NAME</label>
-                <input type="text" class="input">
 
-                <label for="lname">Last name</label>
-                <input type="text" class="input">
+                <div id="inputs">
+                    <div id="fname-container" class="container">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" class="input" id="fname ">                    
+                    </div>
 
-                <label for="email">EMAIL</label>
-                <input type="email" class="input" >
+                    <div id="lname-container" class="container">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" class="input" id="lname">                    
+                    </div>
 
-                <label for="password">PASSWORD</label>
-                <input type="password" class="input">
-            
-                <label for="password">CONFIRM PASSWORD</label>
-                <input type="password" class="input">
+                    <div id="email-container" class="container">
+                        <label for="email">EMAIL</label>
+                        <input type="email" class="input" id="email">                    
+                    </div>
+
+                    <div id="phone-container" class="container">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="text" class="input" id="phone">                    
+                    </div>
+
+                    <div id="password-container" class="container">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" class="input" id="password">                    
+                    </div>
+
+                    <div id="cpassword-container" class="container">
+                        <label for="cpassword">CONFIRM PASSWORD</label>
+                        <input type="password" class="input" id="cpassword">                    
+                    </div>   
+                </div>
             </section>
 
             <button type="submit" id="btn">Create Account</button>
