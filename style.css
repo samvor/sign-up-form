@@ -135,3 +135,7 @@ label {
 #login-text {
     color: #596D48;
 }
+
+#now, #know {
+    font-style: italic;
+}
