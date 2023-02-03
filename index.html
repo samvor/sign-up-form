@@ -39,32 +39,37 @@
                 <div id="inputs">
                     <div id="fname-container" class="container">
                         <label for="fname">FIRST NAME</label>
-                        <input type="text" class="input" id="fname ">                    
+                        <input type="text" class="input" id="fname " required>                    
                     </div>
 
                     <div id="lname-container" class="container">
                         <label for="lname">LAST NAME</label>
-                        <input type="text" class="input" id="lname">                    
+                        <input type="text" class="input" id="lname" required>                    
                     </div>
 
                     <div id="email-container" class="container">
                         <label for="email">EMAIL</label>
-                        <input type="email" class="input" id="email">                    
+                        <input type="email" class="input" id="email" required>                    
                     </div>
 
                     <div id="phone-container" class="container">
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="text" class="input" id="phone">                    
+                        <input type="text" class="input" id="phone" 
+                        required pattern="[0-9]{10}">                    
                     </div>
 
                     <div id="password-container" class="container">
                         <label for="password">PASSWORD</label>
-                        <input type="password" class="input" id="password">                    
+                        <input type="password" class="input" id="password"
+                        required pattern=
+                        "(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">                    
                     </div>
 
                     <div id="cpassword-container" class="container">
                         <label for="cpassword">CONFIRM PASSWORD</label>
-                        <input type="password" class="input" id="cpassword">                    
+                        <input type="password" class="input" id="cpassword"
+                        required pattern=
+                        "(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">                    
                     </div>   
                 </div>
             </section>
